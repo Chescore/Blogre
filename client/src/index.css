@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../public/fonts/Cormorant-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Spectral";
+  src: url("../public/fonts/Spectral-Light.ttf");
+}
+
+button,
+a{
+  -webkit-tap-highlight-color: transparent;
+}
+
+.width{
+  width:800px;
+}
